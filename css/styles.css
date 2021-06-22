@@ -1,0 +1,483 @@
+html{
+    background-image: url(../imagenes/fondo.jpg);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*----BACKGROUNDS----*/
+#form{
+    background: linear-gradient;
+    background-size: 300% 300%;
+    animation: move 5s ease infinite;
+    background-image: url(../imagenes/form.jpg);
+}
+@keyframes move{
+    50%{
+        background-position: 50% 50%;
+    }
+}
+
+body{
+    background-color: rgba(51, 51, 51, 0.2);
+}
+
+
+table,img,article{
+    transition: transform .5s;
+}
+table:hover,article:hover,img:hover{
+    transform: scale(1.1);
+}
+/*----------MAIN----------*/
+main{
+    display: flex;
+} 
+.gift{
+    position: absolute;
+    border: none;
+    width: 2em;
+    margin-left: 50px;
+    right: 5em;
+    top: 8px;
+    box-shadow: none;
+}
+.gift2{
+    position: absolute;
+    border: none;
+    width: 3em;
+    margin-top: -1em;
+    right: 1em;
+    top: 0px;
+    box-shadow: none;
+}
+/*-------SECTIONS------*/
+section{
+    padding-left: 55px;
+    padding-right: 55px;
+    width: 70%;
+    display: flex;
+}
+section.colum{
+    flex-direction: column;
+}
+section.fila{
+    padding: 0;
+    flex-direction: row;
+    width: 100%;
+}
+section.hisG{
+    width: 90%;
+}
+section.forDiv{
+    width: 91%;
+    flex-direction: column;
+}
+section.duo{
+    flex-direction: row;
+    width: 80%;
+}
+section.table{
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+/*---------DIVS----------*/
+div.compI{
+    width: 33%; 
+    margin: 13px;  
+    border-radius: 12px; 
+}
+div.compI img{
+    margin: 5px 5px 0 5px;
+}
+div.flex{
+    display: flex;
+}
+div.return{
+    width: 3%;
+    margin-left:11%;
+}
+div.redes{
+    display: flex;
+    margin-left:76%;
+    width: 10%;
+}
+
+/*----------PARRAFOS----------*/
+figure{
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 1px;
+}
+figure p{
+    text-align: justify;
+    color: #ddd;
+    padding: 0px 8px;
+    font-size: 13pt;
+}
+p.imp{
+    margin: 18px 5px; 
+}
+p.duo{
+    margin: 18px 5px;
+}
+/*----TITULOS,SUBTITULOS----*/
+h1,h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    margin-top: 50px; 
+    font-size: 25pt;
+    width: 100%;
+    text-align: center;
+    color: #ddd; 
+    margin-left: auto;  
+}
+h1.euro{
+    margin-top: 15px;
+}
+h2{
+    font-size: 180%;
+    color: #ddd; 
+}
+h2.bajo{
+    width: 45%; 
+    margin-left: 60px;
+}
+h2.fig{
+    margin-top: 25px;
+}
+h3{
+    font-size: 20pt;
+    margin: 0px 0px -10px 30px;
+}
+/*----ARTICLES----*/  
+article{
+    font-family: sans-serif;
+    background-color: rgba(221, 221, 221, 0.9);
+    padding: 15px 0px;
+    margin-top: 15px;
+    border-radius: 12px;
+    margin-right: 3%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+article p{
+    color: black;
+    font-size: 12.5pt;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+article.hisG{
+    margin: 0px 0px 0px 20px;
+    
+}
+/*----MENU----*/
+.secmenu{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+nav ul.menu{
+    list-style: none;
+    line-height: 300%;
+    margin-top: 3%;
+    margin-left: 50px;
+    padding-left: 0;
+    width: 85%;
+    /* border: 1px solid black; */
+}
+nav ul.menu a{
+    font-size: 100%;
+    color:#ddd;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    width: 300px;
+    
+}
+nav ul.menu li{
+    background-color: rgba(51, 51, 51, 0.6);
+    border-left: 3px solid rgba(255,255,255,.2);
+    margin-bottom: 1%;
+    padding-left: 9%;
+    --webkit-transition:  .4s;
+    -o-transition:  .4s;
+    transition:  .4s;
+}
+
+nav ul.menu li:hover{
+    box-shadow: 19em 0 1em 0  rgba(225, 225, 225, .2)inset;
+}
+nav ul.menu li.active{
+    box-shadow: 19em 0 1em 0  rgba(225, 225, 225, .2)inset;
+}
+/*----IMAGENES----*/
+img{
+    opacity: .95;
+    border-radius: 4px;  
+    border: 2px solid #ddd;
+    margin-left: auto;
+    box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.95);
+}
+img.fut1{
+    width: 85%;
+    margin-top: 25px;
+}
+img.fut2{
+    width: 85%;
+    margin-top: 30px;
+}
+img.hist1{
+    width: 85%;
+    margin-top: 25px;
+}
+img.hist2{
+    width: 85%;
+    margin-top: 50px;
+}
+img.hist3{
+    margin-top: 35px;
+    margin-left: 50px;  
+}
+img.hist4{
+    margin-top: 10px;
+}
+img.comp1{
+    width: 85%;
+    margin-top: 30px;
+}
+img.compx3{
+    margin-top: 25px;
+}
+img.champ{
+    width: 85%;
+    margin-top: 25px;
+}
+img.ligas1{
+    width: 85%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+img.ligas2{
+    width: 70%;
+}
+img.logos{
+    width: 85%;
+    height: 250px;
+    margin-top: 50px;
+}
+img.players{
+    width: 21%;
+    margin-top: 12px;
+}
+img.copa2{
+    margin: 25px 85px 0 50px;
+}
+img.euro1{
+    margin: 0;
+}
+img.euro2{
+    margin-top: 25px;
+}
+img.euro3{
+    margin-top: 25px;
+}
+img.redes{
+    border: 0;
+    margin: 10px 15px 0px 0px;
+    border-radius: 25px;
+    float: left;
+}
+img.return{
+    border: 0;
+    margin: 10px 10px 0px 0px;
+    border-radius: 25px;
+    float: left;
+}  
+img.chart{
+    width: 80%;
+    margin-right: auto;
+    opacity: .9;
+}
+img.duo{
+    margin: 35px 0px 10px 0px;
+}
+/*----------REDES---------*/ 
+span{
+    border-radius: 25px;
+    background:url(../imagenes/brillog.png) no-repeat; 
+    background-position: -300px 0px; 
+    position: relative;
+    display: block;
+    width: 32px;
+    height: 33px;
+    margin-top: 10px;
+}
+div a:hover span{
+    background-position: 300px 0px;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1.3s;
+    transition-property: all;
+    transition-duration: 1.3s;
+}
+/*--------VIDEOS-------*/
+iframe{
+    border:2px solid #ddd;
+}
+iframe.hist{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+iframe.comp{
+    margin-top: 20px;
+}
+iframe.duo{
+    width: 70%;
+    height: 530px;
+}
+/*-----BUTTONS------*/
+button.comen{
+    width: 67%;
+    height: 60%;
+    margin-top: 35px;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-left: 50px;
+    background: linear-gradient( #00000000, #11101000);
+    box-shadow:  5px 0px 10px #ccc,
+                0px 8px 10px #dbdada;
+}
+button{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family:cursive;
+    color: #ddd;
+    width: 45%;
+    height: 7%;
+    border-radius: 14px;
+    background: linear-gradient( #00000000, #11101000);
+    box-shadow:  5px 0px 10px #ccc,
+                0px 8px 10px #dbdada;
+}   
+
+/*--------PIE DE PAGINA--------*/
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-size: 112%;
+    width: 99%;
+    color: #ddd; 
+    text-align: center;
+    padding: 5px 6px;
+}
+/*-------MENU LIGAS-------*/
+nav.ligas{
+    background-color: rgba(51, 51, 51, 0.6);
+    overflow: hidden;
+    width: 78.8%; 
+}
+nav.ligas a{
+    border: 2px solid rgba(225, 225, 225, .2) ;
+    text-transform: uppercase;
+    float: left;
+    display: block;
+    color: #ddd;
+    text-align: center;
+    padding: 10px 23px;
+    text-decoration: none;
+    --webkit-transition:   .5s;
+    -o-transition:  .5s;
+    transition:  .5s; 
+}
+nav.ligas a:hover{
+    background-color: rgba(225, 225, 225, .2);
+}
+nav.ligas a.active{
+    background-color: rgba(225, 225, 225, .2);
+}
+
+/*-------FORMULARIO------*/
+
+aside.form{
+    width: 100%;
+}
+img.form{
+    border-radius: 200px;
+    margin-top: 20px;
+    border: none;
+    opacity: 0.9;
+}
+section.form{
+    width: 83%;
+    margin: 50px auto 20px auto;
+    font-size: 20px; 
+    padding: 0px 10px;
+}
+input[type=text], textarea {
+    border: 2px solid rgba(225, 225, 225, .2);
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    opacity: 0.8;
+}
+  
+input[type=submit] {
+    border: 1px solid rgba(225, 225, 225, .2);
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: rgb(170, 142, 142);
+}
+form {
+    border: 4px solid rgba(225, 225, 225, .2);
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+    width: 100%;
+}
+
+/*----------TABLAS---------*/
+table{
+    opacity: 0.9;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: black;
+    background-color: #ddd;
+    border-spacing: 0;
+}
+table th{
+    padding: 20px;
+    text-align: left;
+}
+table td{
+    text-align: center;
+}
+th.prio{
+    text-align: center!important;
+    border-radius: 25px 25px 0 0;
+}
+th.bot-i{
+    border-radius: 0 0 0 25px;
+}
+td.bot-d{
+    border-radius: 0 0 25px 0;
+}
+.pint{
+    background-color: rgba(20, 15, 15, 0.336);
+}
